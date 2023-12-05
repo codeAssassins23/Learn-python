@@ -31,6 +31,8 @@ print(len(my_dict))
 #access one element
 skills = my_dict['skills']
 print(skills)
+skills= my_dict.pop('skills') #delete one element
+print(skills, "new skills")
 
 python = my_dict[1]
 print(python)
@@ -50,7 +52,6 @@ print(my_copy_dict,"copy")
 #update
 my_dict['uwu'] = 'uwu'
 my_dict.update({'uwu': 'uwu'})#the difference is that it can add more than one element
-
 print("\n",my_dict)
 
 #delete
@@ -58,16 +59,16 @@ del my_dict['uwu']
 print(my_dict)
 
 #search
-print('name' in my_dict)
+print('name' in my_dict, "existe nombre")
 
-print(my_other_dict.items())
+print(my_other_dict.items()) #return a list with tuples of the dictionary (key, value)
 
 #keys
-my_keys = my_other_dict.keys()
+my_keys = my_other_dict.keys() #return a list with the keys of the dictionary
 print(my_keys)
 
 #values
-values_dict = my_other_dict.values()
+values_dict = my_other_dict.values() #return a list with the values of the dictionary
 print(values_dict)
 
 #fromkeys
