@@ -1,5 +1,5 @@
 ###### Tuples ######
-# Tuples are immutable
+# Tuples are immutable,es decir, no se pueden modificar ni agregar elementos
 my_tuple = tuple()
 my_other_tuple = ()
 
