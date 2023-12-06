@@ -59,6 +59,6 @@ for element in my_dict.values():
     if element == 21:
         print("finished")
         continue
-    print("se ejecuta despues del continue")
+    print("se ejecuta despues del continue") 
 else: 
     print("el bucle for para mi dict ha terminado")
