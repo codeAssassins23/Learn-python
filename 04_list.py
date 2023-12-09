@@ -38,9 +38,9 @@ my_pop_element = my_list.pop(0)
 print(my_pop_element)
 print(my_list)
 
-#elimnar sin guardaar
+#elimnar sin guardar
 del my_list[6]
-print(my_list) 
+print(my_list)
 
 print(my_list.clear())
 
